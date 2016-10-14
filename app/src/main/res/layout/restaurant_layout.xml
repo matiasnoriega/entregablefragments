@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorLinearBottomTransparente"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRE"
+        android:textSize="25sp"
+        android:textColor="@color/colorTextLinearBottomTransparente"
+        android:id="@+id/textNombre"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion"
+            android:textSize="15sp"
+            android:textColor="@color/colorTextLinearBottomTransparente"
+            android:id="@+id/textUbicacion"/>
+    </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
