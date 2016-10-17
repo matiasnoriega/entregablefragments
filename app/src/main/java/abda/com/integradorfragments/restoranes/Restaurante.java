@@ -1,7 +1,9 @@
-package abda.com.integradorfragments;
+package abda.com.integradorfragments.restoranes;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import abda.com.integradorfragments.R;
 
 /**
  * Created by digitalhouse on 14/10/16.

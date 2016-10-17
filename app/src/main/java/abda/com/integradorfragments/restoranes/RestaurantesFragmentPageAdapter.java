@@ -1,4 +1,4 @@
-package abda.com.integradorfragments;
+package abda.com.integradorfragments.restoranes;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

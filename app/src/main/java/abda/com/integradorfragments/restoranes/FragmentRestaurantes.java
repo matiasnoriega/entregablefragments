@@ -1,4 +1,4 @@
-package abda.com.integradorfragments;
+package abda.com.integradorfragments.restoranes;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+
+import abda.com.integradorfragments.R;
 
 public class FragmentRestaurantes extends Fragment {
 
