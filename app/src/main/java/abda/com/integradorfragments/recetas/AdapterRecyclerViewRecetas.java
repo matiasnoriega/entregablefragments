@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import java.util.*;
@@ -45,16 +46,19 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter {
     private class RecetasViewHolder extends RecyclerView.ViewHolder{
         private TextView textViewNombre;
         private TextView textViewResumen;
+        private FrameLayout imageViewFotoCelda;
 
         public RecetasViewHolder(View view) {
             super(view);
             textViewNombre = (TextView)view.findViewById(R.id.textNombreRecetaLayoutDetalle);
             textViewResumen = (TextView)view.findViewById(R.id.textResumenRecetaLayoutDetalle);
+            imageViewFotoCelda = (FrameLayout)view.findViewById(R.id.imageFotoCelda);
         }
 
         public void cargarReceta (Receta unaReceta){
             textViewNombre.setText(unaReceta.getNombre());
             textViewResumen.setText(unaReceta.getResumenCorto());
+            imageViewFotoCelda.setBackgroundResource(unaReceta.getFotoId());
         }
 
     }
