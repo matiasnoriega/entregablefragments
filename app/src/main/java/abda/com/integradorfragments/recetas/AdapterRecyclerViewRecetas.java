@@ -54,7 +54,7 @@ public class AdapterRecyclerViewRecetas extends RecyclerView.Adapter {
 
         public void cargarReceta (Receta unaReceta){
             textViewNombre.setText(unaReceta.getNombre());
-            textViewNombre.setText(unaReceta.getResumen());
+            textViewResumen.setText(unaReceta.getResumenCorto());
         }
 
     }
