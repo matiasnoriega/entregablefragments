@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorLinearBottomTransparente">#9e000000</color>
     <color name="colorTextLinearBottomTransparente">#ffffff</color>
+    <color name="fondo">#310707</color>
 </resources>
