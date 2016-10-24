@@ -21,7 +21,7 @@ public class Receta {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.resumen = resumen;
-        this.resumenCorto = resumen.substring(0, 100)+"...";
+        this.resumenCorto = resumen.substring(0, 150)+"...";
         this.fotoId = fotoId;
     }
 
